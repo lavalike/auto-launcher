@@ -1,4 +1,4 @@
-package com.car.launcher.base
+package com.auto.launcher.base
 
 import android.os.Bundle
 import com.wangzhen.commons.toolbar.ToolbarActivity

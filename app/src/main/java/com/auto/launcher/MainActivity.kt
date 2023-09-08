@@ -1,8 +1,8 @@
-package com.car.launcher
+package com.auto.launcher
 
 import android.os.Bundle
-import com.car.launcher.base.BaseActivity
-import com.car.launcher.databinding.ActivityMainBinding
+import com.auto.launcher.base.BaseActivity
+import com.auto.launcher.databinding.ActivityMainBinding
 
 /**
  * MainActivity
