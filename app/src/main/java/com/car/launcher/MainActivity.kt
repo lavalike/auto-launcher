@@ -1,11 +1,18 @@
 package com.car.launcher
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.car.launcher.base.BaseActivity
+import com.car.launcher.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+/**
+ * MainActivity
+ * Created by wangzhen on 2023/9/8
+ */
+class MainActivity : BaseActivity() {
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
